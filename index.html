@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
     <title>Sign-Up Form</title>
 </head>
 
@@ -13,13 +16,21 @@
     <!--Global Container-->
     <div class="flex border-4 border-red-900 min-h-screen">
         <!--Left side container-->
-        <div class="border-2 border-red-600 h-screen w-[35%]">
-            <!--Logo Container-->
-            <div>
-                <!--Logo-->
-                <div></div>
-                <!--Logo Name-->
-                <div></div>
+        <div class="relative border-2 border-red-600 h-screen w-[35%] bg-cover"
+            style="background-image: url(images/background.jpg)">
+            <!--Logo & Comp name Container-->
+            <div class="bg-black bg-opacity-30 h-32 flex justify-center mt-60">
+                <!--Content container-->
+                <div class="flex items-center">
+                    <img src="images/odin-lined.png" alt="" class="w-20">
+                    <h1 class="font-bold text-white text-7xl">ODIN</h1>
+                </div>
+            </div>
+            <div class="w-full flex justify-center">
+                <span class="absolute bottom-0 text-white py-10">Photo by <a
+                        href="https://unsplash.com/photos/yWBBvm3jS-k" class="underline decoration-solid">Peter
+                        Steiner</a> on <a href="https://unsplash.com/"
+                        class="underline decoration-solid">Unsplash</a></span>
             </div>
         </div>
         <!--Right side container-->
